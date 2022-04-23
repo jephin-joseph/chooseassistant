@@ -1,0 +1,12 @@
+{% extends "index.html" %}
+{% block content %}
+<div>
+    <p class="m">So whom are u looking to purchase this laptop for</p>
+</div>
+<div class="grid-container" style="padding-top: 5%">
+    <div class="grid-item"><a class="btn btn-danger" href="{{ url_for("myself") }}" role="button">Myself</a></div>
+    <div class="grid-item"><a class="btn btn-danger" href="" role="button">Someone else</a></div>
+    <div class="grid-item"><a class="btn btn-danger" href="" role="button">My bussiness / organisation</a></div>
+</div>
+
+{% endblock %}

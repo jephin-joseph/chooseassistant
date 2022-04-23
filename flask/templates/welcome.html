@@ -1,0 +1,10 @@
+{% extends 'index.html' %}
+{% block title %}{% endblock %}
+{% block content %}
+<h1 id="cahd" style="font-size:600%; font-family: 'Roboto Condensed', sans-serif;">Welcome to <br>choose assistant</h1>
+<div class="d-grid gap-2 col-4 mx-auto" style="margin-top: 5%;" >
+    <a class="btn btn-danger" href="{{ url_for("whom") }}" role="button">whom</a>
+    <!-- <button onclick="window.location='.whom.html'" class="btn btn-primary" type="submit" >lets go</button> -->
+    <!-- <button type="button" class="btn btn-primary">Lets go</button> -->
+</div>
+{% endblock %}

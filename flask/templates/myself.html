@@ -1,0 +1,19 @@
+{% extends 'index.html' %}
+{% block title %}{% endblock %}
+{% block content %}
+<h1 class="m">Alright what is the purpose of the laptop</h1>
+<div class="grid-container6" style="padding-top: 5%;">
+    <div class="grid-item"><a class="btn btn-danger" href="{{ url_for("studying") }}" role="button">studying</a></div>
+    <div class="grid-item"><a class="btn btn-danger" href="{{ url_for("programing") }}" role="button">programing</a></div>
+    <div class="grid-item"><a class="btn btn-danger" href="{{ url_for("editing") }}" role="button">multimedia editing</a></div>  
+    <div class="grid-item"><a class="btn btn-danger" href="{{ url_for("gaming") }}" role="button">gaming</a></div>
+    <div class="grid-item"><a class="btn btn-danger" href="{{ url_for("office") }}" role="button">office use</a></div>
+    <div class="grid-item"><a class="btn btn-danger" href="{{ url_for("casual") }}" role="button">casual browsing</a></div> 
+</div>
+<!-- <a class="btn btn-primary" href="/whom" role="button">studying</a>
+<a class="btn btn-primary" href="/whom" role="button">programing</a>
+<a class="btn btn-primary" href="/whom" role="button">multimedia editing</a>
+<a class="btn btn-primary" href="/whom" role="button">gaming</a>
+<a class="btn btn-primary" href="/whom" role="button">office use</a>
+<a class="btn btn-primary" href="/whom" role="button">casual browsing</a> -->
+{% endblock %}
